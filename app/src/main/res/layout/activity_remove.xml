@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".view.remove.RemoveActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TVtop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Found Katy"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TVmiddle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 days ago"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/TVbottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At Brushwood campus"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/d_50"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="REMOVE"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
